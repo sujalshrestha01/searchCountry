@@ -27808,31 +27808,45 @@ var _s = $RefreshSig$();
 function CountryList({ query, filter }) {
     _s();
     const [countries, setCountries] = (0, _react.useState)([]);
-    fetch("https://restcountries.com/v3.1/all").then((response)=>response.json()).then((data)=>{
-        return setCountries(data);
-    });
+    (0, _react.useEffect)(()=>{
+        fetch("https://restcountries.com/v3.1/all").then((response)=>response.json()).then((data)=>{
+            setCountries(data);
+        });
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "allCountries",
-        children: countries.filter((country)=>country.name.common.toLowerCase().includes(query)).filter((country)=>country.region.includes(filter)).map((country)=>{
-            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryCardDefault.default), {
-                name: country.name.common,
-                population: country.population,
-                region: country.region,
-                capital: country.capital,
-                img: country.flags.svg
-            }, country.name.common, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: ()=>{
+                    setCountries([]);
+                },
+                children: "remove"
+            }, void 0, false, {
                 fileName: "Components/CountryList.jsx",
-                lineNumber: 25,
-                columnNumber: 15
-            }, this);
-        })
-    }, void 0, false, {
+                lineNumber: 26,
+                columnNumber: 7
+            }, this),
+            countries.filter((country)=>country.name.common.toLowerCase().includes(query)).filter((country)=>country.region.includes(filter)).map((country)=>{
+                return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryCardDefault.default), {
+                    name: country.name.common,
+                    population: country.population,
+                    region: country.region,
+                    capital: country.capital,
+                    img: country.flags.svg
+                }, country.name.common, false, {
+                    fileName: "Components/CountryList.jsx",
+                    lineNumber: 33,
+                    columnNumber: 15
+                }, this);
+            })
+        ]
+    }, void 0, true, {
         fileName: "Components/CountryList.jsx",
-        lineNumber: 18,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
-_s(CountryList, "gwqfcWgq2x/FJogDCUDGbZQoAlg=");
+_s(CountryList, "u5xOCJaVOCLA9QSfvEC1BLxOVIw=");
 _c = CountryList;
 var _c;
 $RefreshReg$(_c, "CountryList");

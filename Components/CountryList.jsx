@@ -1,21 +1,29 @@
-import React, {useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import CountryCard from './CountryCard';
 
 export default function CountryList({query,filter}) {
   const [countries, setCountries] = useState([]);
 
 
+useEffect(() => {
 
-    fetch('https://restcountries.com/v3.1/all')
+
+  
+     fetch('https://restcountries.com/v3.1/all')
       .then((response) => response.json())
       .then((data) => {
        
-        return setCountries(data)});
+         setCountries(data)});
+  
+}, [])
+
+   
 
 
 
   return (
     <div className='allCountries'>
+      <button onClick={()=>{setCountries([])}}>remove</button>
       {countries
       .filter((country)=>
         country.name.common.toLowerCase().includes(query)
