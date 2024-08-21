@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function CountryCard({key,name,population,region,capital,img}) {
+export default function CountryCard({name,population,region,capital,img}) {
+
   return (
-    <div className='countryCard' key={key}>
+    <a className='countryCard' href={`/country?name=${name}`}  >
         <img src={img} className='flags' alt="" />
         <p>{name}</p>
         <p>Population: <span>{population}</span> </p>
@@ -11,6 +12,6 @@ export default function CountryCard({key,name,population,region,capital,img}) {
 
 
         
-    </div>
+    </a>
   )
 }

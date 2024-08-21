@@ -17,13 +17,10 @@ useEffect(() => {
   
 }, [])
 
-   
-
-
-
+  
   return (
     <div className='allCountries'>
-      <button onClick={()=>{setCountries([])}}>remove</button>
+      
       {countries
       .filter((country)=>
         country.name.common.toLowerCase().includes(query)
