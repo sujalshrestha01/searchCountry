@@ -9,6 +9,17 @@ a {
   text-decoration: none;
 }
 
+.shimmerCardAll {
+  background-color: #ccc;
+  width: 218px;
+  height: 216px;
+}
+
+.shimmerCountryDetail {
+  height: 180px;
+  background-color: #ccc !important;
+}
+
 .max-width {
   max-width: 1200px;
   margin-inline: auto;

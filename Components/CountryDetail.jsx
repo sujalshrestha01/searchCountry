@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import ShimmerCountryDetail from "./ShimmerCountryDetail";
 
 export default function CountryDetail() {
   const { country: countryName } = useParams();
 
   const [countryData, setCountryData] = useState(null);
   const [foundErr, setFoundErr] = useState(false);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!countryName) return;
@@ -46,9 +47,9 @@ export default function CountryDetail() {
       })
       .catch((err) => {
         setFoundErr(true);
-      })
-      .finally(() => {
-        setLoading(false);
+      // })
+      // .finally(() => {
+      //   setLoading(false);
       });
   }, [countryName]);
 
@@ -56,15 +57,17 @@ export default function CountryDetail() {
     return <h2>Page not found</h2>;
   }
 
-  if (loading || !countryData) {
-    return <h2>Loading...</h2>;
+  if ( !countryData) {
+    return <ShimmerCountryDetail/>
   }
 
   return (
+  
     <div>
       <button className="backBtn" onClick={() => history.back()}>
         ← Back
       </button>
+      
       <div className="countryDetail">
         <img src={countryData.img} alt={`${countryData.name} flag`} />
         <div>
