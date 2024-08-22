@@ -1,5 +1,5 @@
-fetch countries api , added searching functionality using react
-<b> TO RUN</b> <br>
-<h2>npm i </h2> <br>
-<h2>npm start</h2>
+fetch countries api , added searching functionality using react<br>
+<b> TO RUN</b> 
+<h3>npm i </h3> 
+<h3>npm start</h3>
 
