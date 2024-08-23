@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import CountryCard from "./CountryCard";
-import ShimmerCountryList from "./shimmerCountryList";
+
+import CountryListShimmer from "./CountryLIstShimmer";
+
 
 export default function CountryList({ query, filter }) {
   const [countries, setCountries] = useState([]);
@@ -9,11 +11,13 @@ export default function CountryList({ query, filter }) {
     fetch("https://restcountries.com/v3.1/all")
       .then((response) => response.json())
       .then((data) => {
+        
         setCountries(data);
       });
   }, []);
+  let index=0
   if(!countries.length){
-    return <ShimmerCountryList/>
+    return <CountryListShimmer />
   }
 
   return (
@@ -32,6 +36,7 @@ export default function CountryList({ query, filter }) {
               region={country.region}
               capital={country.capital}
               img={country.flags.svg}
+              data={country}
             />
           );
         })}

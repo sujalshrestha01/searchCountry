@@ -3003,7 +3003,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"ifStX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","./Components/CountryDetail":"aci4e","./Components/Home":"3Sn0R"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./App":"ifStX","./Components/CountryDetail":"aci4e","./Components/Home":"3Sn0R","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27246,284 +27246,7 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"ifStX":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$53a7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$53a7.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>App);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _header = require("./Components/Header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
-var _reactRouterDom = require("react-router-dom");
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 17,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
-                fileName: "App.jsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "App.jsx",
-        lineNumber: 16,
-        columnNumber: 5
-    }, this);
-}
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
-
-  $parcel$ReactRefreshHelpers$53a7.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/Header":"huOh1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"huOh1":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b95f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b95f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Header);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _styleCss = require("./style.css");
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header max-width  ",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Where in the world?"
-            }, void 0, false, {
-                fileName: "Components/Header.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "theme-changer ",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "fa-regular fa-moon"
-                    }, void 0, false, {
-                        fileName: "Components/Header.jsx",
-                        lineNumber: 11,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Dark Mode"
-                    }, void 0, false, {
-                        fileName: "Components/Header.jsx",
-                        lineNumber: 12,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "Components/Header.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "Components/Header.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
-}
-_c = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$b95f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"9B4hG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9B4hG":[function() {},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("7422ead32dcc1e6b");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"7422ead32dcc1e6b":"786KC"}],"9xmpe":[function(require,module,exports) {
+},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.26.1
  *
@@ -34649,7 +34372,284 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aci4e":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"ifStX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$53a7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$53a7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>App);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _header = require("./Components/Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _reactRouterDom = require("react-router-dom");
+function App() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 18,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "App.jsx",
+        lineNumber: 16,
+        columnNumber: 5
+    }, this);
+}
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$53a7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/Header":"huOh1","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huOh1":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b95f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b95f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Header);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleCss = require("./style.css");
+function Header() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header max-width  ",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Where in the world?"
+            }, void 0, false, {
+                fileName: "Components/Header.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "theme-changer ",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "fa-regular fa-moon"
+                    }, void 0, false, {
+                        fileName: "Components/Header.jsx",
+                        lineNumber: 11,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Dark Mode"
+                    }, void 0, false, {
+                        fileName: "Components/Header.jsx",
+                        lineNumber: 12,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "Components/Header.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "Components/Header.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_c = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$b95f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"9B4hG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9B4hG":[function() {},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("7422ead32dcc1e6b");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"7422ead32dcc1e6b":"786KC"}],"aci4e":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$45d5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34672,29 +34672,39 @@ function CountryDetail() {
     const [countryData, setCountryData] = (0, _react.useState)(null);
     const [foundErr, setFoundErr] = (0, _react.useState)(false);
     // const [loading, setLoading] = useState(true);
-    (0, _react.useEffect)(()=>{
-        if (!countryName) return;
-        fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`).then((res)=>res.json()).then(([data])=>{
-            if (!data) throw new Error("No data found");
-            setCountryData({
-                img: data.flags.svg,
-                name: data.name.common,
-                nativeName: data.name.nativeName ? Object.values(data.name.nativeName)[0].common : "N/A",
-                population: data.population,
-                region: data.region,
-                subRegion: data.subregion,
-                capital: data.capital ? data.capital[0] : "N/A",
-                tld: data.tld[0],
-                currencies: data.currencies ? Object.values(data.currencies)[0].name : "N/A",
-                languages: data.languages ? Object.values(data.languages).join(", ") : "N/A",
-                borderCountries: []
-            });
-            if (data.borders && data.borders.length > 0) return Promise.all(data.borders.map((border)=>fetch(`https://restcountries.com/v3.1/alpha/${border}`).then((res)=>res.json()).then(([borderCountry])=>borderCountry.name.common))).then((borderCountries)=>{
+    const { state } = (0, _reactRouterDom.useLocation)();
+    function updataData(data) {
+        if (!data) throw new Error("No data found");
+        setCountryData({
+            img: data.flags.svg,
+            name: data.name.common,
+            nativeName: data.name.nativeName ? Object.values(data.name.nativeName)[0].common : "N/A",
+            population: data.population,
+            region: data.region,
+            subRegion: data.subregion,
+            capital: data.capital ? data.capital[0] : "N/A",
+            tld: data.tld[0],
+            currencies: data.currencies ? Object.values(data.currencies)[0].name : "N/A",
+            languages: data.languages ? Object.values(data.languages).join(", ") : "N/A",
+            borderCountries: []
+        });
+        if (data.borders && data.borders.length > 0) return Promise.all(data.borders.map((border)=>fetch(`https://restcountries.com/v3.1/alpha/${border}`).then((res)=>res.json()).then(([borderCountry])=>borderCountry.name.common))).then((borderCountries)=>{
+            setTimeout(()=>{
                 setCountryData((prev)=>({
                         ...prev,
                         borderCountries
                     }));
             });
+        });
+    }
+    (0, _react.useEffect)(()=>{
+        if (!countryName) return;
+        if (state) {
+            updataData(state);
+            return;
+        }
+        fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`).then((res)=>res.json()).then(([data])=>{
+            updataData(data);
         }).catch((err)=>{
             setFoundErr(true);
         // })
@@ -34708,12 +34718,12 @@ function CountryDetail() {
         children: "Page not found"
     }, void 0, false, {
         fileName: "Components/CountryDetail.jsx",
-        lineNumber: 57,
+        lineNumber: 71,
         columnNumber: 12
     }, this);
     if (!countryData) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerCountryDetailDefault.default), {}, void 0, false, {
         fileName: "Components/CountryDetail.jsx",
-        lineNumber: 61,
+        lineNumber: 75,
         columnNumber: 12
     }, this);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34724,7 +34734,7 @@ function CountryDetail() {
                 children: "\u2190 Back"
             }, void 0, false, {
                 fileName: "Components/CountryDetail.jsx",
-                lineNumber: 67,
+                lineNumber: 81,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34735,7 +34745,7 @@ function CountryDetail() {
                         alt: `${countryData.name} flag`
                     }, void 0, false, {
                         fileName: "Components/CountryDetail.jsx",
-                        lineNumber: 72,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34744,7 +34754,7 @@ function CountryDetail() {
                                 children: countryData.name
                             }, void 0, false, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 74,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34754,13 +34764,13 @@ function CountryDetail() {
                                         children: countryData.nativeName
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 90,
                                         columnNumber: 26
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 75,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34770,13 +34780,13 @@ function CountryDetail() {
                                         children: countryData.population
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 79,
+                                        lineNumber: 93,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 78,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34786,13 +34796,13 @@ function CountryDetail() {
                                         children: countryData.region
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 96,
                                         columnNumber: 21
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 81,
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34802,13 +34812,13 @@ function CountryDetail() {
                                         children: countryData.subRegion
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 99,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 84,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34818,13 +34828,13 @@ function CountryDetail() {
                                         children: countryData.capital
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 102,
                                         columnNumber: 22
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 87,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34834,13 +34844,13 @@ function CountryDetail() {
                                         children: countryData.tld
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 91,
+                                        lineNumber: 105,
                                         columnNumber: 31
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 90,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34850,13 +34860,13 @@ function CountryDetail() {
                                         children: countryData.currencies
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 94,
+                                        lineNumber: 108,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 93,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34866,16 +34876,16 @@ function CountryDetail() {
                                         children: countryData.languages
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 97,
+                                        lineNumber: 111,
                                         columnNumber: 24
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 96,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this),
-                            countryData.borderCountries.length > 0 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            countryData.borderCountries.length > 0 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: [
                                     "Border countries:",
                                     " ",
@@ -34887,42 +34897,43 @@ function CountryDetail() {
                                                 children: border
                                             }, border, false, {
                                                 fileName: "Components/CountryDetail.jsx",
-                                                lineNumber: 104,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "Components/CountryDetail.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "Components/CountryDetail.jsx",
-                                lineNumber: 100,
+                                lineNumber: 114,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "Components/CountryDetail.jsx",
-                        lineNumber: 73,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "Components/CountryDetail.jsx",
-                lineNumber: 71,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "Components/CountryDetail.jsx",
-        lineNumber: 66,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }
-_s(CountryDetail, "vJtnJNWJzdBDz07TFGWEvSJxLvs=", false, function() {
+_s(CountryDetail, "Wl6gV8vAxoXtCWD1TJwQ4zKfIIM=", false, function() {
     return [
-        (0, _reactRouterDom.useParams)
+        (0, _reactRouterDom.useParams),
+        (0, _reactRouterDom.useLocation)
     ];
 });
 _c = CountryDetail;
@@ -34934,7 +34945,7 @@ $RefreshReg$(_c, "CountryDetail");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ShimmerCountryDetail":"iunhu"}],"iunhu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./ShimmerCountryDetail":"iunhu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iunhu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$68f3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35212,10 +35223,11 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-function CountryCard({ name, population, region, capital, img }) {
+function CountryCard({ name, population, region, capital, img, data }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
         className: "countryCard",
         to: `/${name}`,
+        state: data,
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: img,
@@ -35300,7 +35312,7 @@ $RefreshReg$(_c, "CountryCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"anj2c":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"anj2c":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d65a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35315,8 +35327,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _countryCard = require("./CountryCard");
 var _countryCardDefault = parcelHelpers.interopDefault(_countryCard);
-var _shimmerCountryList = require("./shimmerCountryList");
-var _shimmerCountryListDefault = parcelHelpers.interopDefault(_shimmerCountryList);
+var _countryLIstShimmer = require("./CountryLIstShimmer");
+var _countryLIstShimmerDefault = parcelHelpers.interopDefault(_countryLIstShimmer);
 var _s = $RefreshSig$();
 function CountryList({ query, filter }) {
     _s();
@@ -35326,9 +35338,10 @@ function CountryList({ query, filter }) {
             setCountries(data);
         });
     }, []);
-    if (!countries.length) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerCountryListDefault.default), {}, void 0, false, {
+    let index = 0;
+    if (!countries.length) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryLIstShimmerDefault.default), {}, void 0, false, {
         fileName: "Components/CountryList.jsx",
-        lineNumber: 16,
+        lineNumber: 20,
         columnNumber: 12
     }, this);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -35340,16 +35353,17 @@ function CountryList({ query, filter }) {
                     population: country.population,
                     region: country.region,
                     capital: country.capital,
-                    img: country.flags.svg
+                    img: country.flags.svg,
+                    data: country
                 }, country.name.common, false, {
                     fileName: "Components/CountryList.jsx",
-                    lineNumber: 28,
+                    lineNumber: 32,
                     columnNumber: 13
                 }, this);
             })
         }, void 0, false, {
             fileName: "Components/CountryList.jsx",
-            lineNumber: 22,
+            lineNumber: 26,
             columnNumber: 5
         }, this)
     }, void 0, false);
@@ -35364,58 +35378,58 @@ $RefreshReg$(_c, "CountryList");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./CountryCard":"7IYvg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./shimmerCountryList":"avDMc"}],"avDMc":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c145 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./CountryCard":"7IYvg","./CountryLIstShimmer":"7uQVU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7uQVU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$98dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c145.prelude(module);
+$parcel$ReactRefreshHelpers$98dc.prelude(module);
 
 try {
+// import React from 'react'
+// import './style.css'
+// export default function ShimmerCountryList() {
+//   return (
+//     <div className='allCountries'>
+//         {Array.from({length:15}).map((_,index)=>{
+//             return ( <div key={index} className='countryCard shimmerCardAll'></div> )
+//         })}
+//     </div>
+//   )
+// }
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>ShimmerCountryList);
+parcelHelpers.export(exports, "default", ()=>CountryListShimmer);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styleCss = require("./style.css");
-function ShimmerCountryList() {
+function CountryListShimmer() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "allCountries",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: Array.from({
+            length: 15
+        }).map((_, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "countryCard shimmerCardAll"
-            }, void 0, false, {
-                fileName: "Components/shimmerCountryList.jsx",
-                lineNumber: 7,
+            }, index, false, {
+                fileName: "Components/CountryLIstShimmer.jsx",
+                lineNumber: 24,
                 columnNumber: 9
-            }, this),
-            Array.from({
-                length: 15
-            }).map(()=>{
-                return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "countryCard shimmerCardAll"
-                }, void 0, false, {
-                    fileName: "Components/shimmerCountryList.jsx",
-                    lineNumber: 10,
-                    columnNumber: 22
-                }, this);
-            })
-        ]
-    }, void 0, true, {
-        fileName: "Components/shimmerCountryList.jsx",
-        lineNumber: 6,
+            }, this))
+    }, void 0, false, {
+        fileName: "Components/CountryLIstShimmer.jsx",
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
-_c = ShimmerCountryList;
+_c = CountryListShimmer;
 var _c;
-$RefreshReg$(_c, "ShimmerCountryList");
+$RefreshReg$(_c, "CountryListShimmer");
 
-  $parcel$ReactRefreshHelpers$c145.postlude(module);
+  $parcel$ReactRefreshHelpers$98dc.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./style.css":"9B4hG"}],"9B4hG":[function() {},{}]},["km5uZ","1xC6H","bB7Pu"], "bB7Pu", "parcelRequiredd69")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"9B4hG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9B4hG":[function() {},{}]},["km5uZ","1xC6H","bB7Pu"], "bB7Pu", "parcelRequiredd69")
 
 //# sourceMappingURL=index.3d214d75.js.map
