@@ -3,9 +3,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    --background-color: white;
+    --text-color: black;
+    --elements-color: white;
+}
+body.dark{
+    --background-color: hsl(207, 26%, 17%); 
+    --text-color: white;
+    --elements-color: hsl(209, 23%, 22%);
+}
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+}
 a{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 .shimmerCardAll{
     width: 218px;
@@ -31,6 +45,7 @@ a{
     padding-top: 20px;
     margin-inline: auto;
     margin-bottom: 40px;
+    background-color: var(--elements-color);
 
 }
 
@@ -38,6 +53,7 @@ a{
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 .search{
     display: flex;
@@ -47,34 +63,43 @@ a{
     height: 40px;
     box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
     padding-inline: 20px;
+    background: var(--elements-color);
 }
 .search input{
+    color: var(--text-color);
     border: none;
     width: 100%;
     outline: none;
+    background: var(--elements-color);
 }
 .search-filter{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
 .filter{
+    
     display: flex;
     align-items: center;
     width: 250px;
     height: 40px;
     box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
     padding-inline: 16px;
+    background: var(--elements-color);
 }
 .filterByRegion{
     border: none;
     outline: none;
     width: 100%;
+    background: var(--elements-color);
+    color: var(--text-color);
 }
 .flags{
     width: 150px;
     height: 100px;
+    background: var(--elements-color);
 }
 .allCountries{
     max-width: 1200px;
@@ -90,15 +115,20 @@ a{
     transition: all 0.3s ease-out;
     text-decoration: none;
     color: black;
+    background: var(--elements-color);
+    color: var(--text-color);
+    border-radius: 12px;
 }
 .countryCard:hover{
     transform: scale(1.15);
     cursor: pointer;
+    border: 1px solid black;
+    
 }
 .countryDetail{
-    background-color: antiquewhite;
+    background-color: var(--elements-color);
     max-width: 550px;
-    box-shadow:0 0 8px 0px rgba(0, 0, 0, 0.15) ;
+    box-shadow:0 0 15px 5px rgba(0, 0, 0, 0.15) ;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -106,6 +136,7 @@ a{
 
     padding: 20px;
     margin: auto;
+    border-radius: 20px;
 }
 .countryDetail p{
     font-weight: bold;
@@ -114,7 +145,7 @@ a{
     font-weight: 500;
 }
 .countryDetail img{
-    background-color: antiquewhite;
+    background-color: var(--elements-color);
     border:none;
   
     height: 150px;
