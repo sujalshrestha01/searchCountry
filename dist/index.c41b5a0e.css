@@ -4,8 +4,25 @@
   padding: 0;
 }
 
+body {
+  --background-color: white;
+  --text-color: black;
+  --elements-color: white;
+}
+
+body.dark {
+  --background-color: #202c37;
+  --text-color: white;
+  --elements-color: #2b3945;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
 a {
-  color: #000;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -26,6 +43,7 @@ a {
 }
 
 .header {
+  background-color: var(--elements-color);
   margin-inline: auto;
   justify-content: space-between;
   align-items: center;
@@ -37,12 +55,14 @@ a {
 }
 
 .theme-changer {
+  cursor: pointer;
   align-items: center;
   gap: 8px;
   display: flex;
 }
 
 .search {
+  background: var(--elements-color);
   align-items: center;
   gap: 8px;
   max-width: 300px;
@@ -53,6 +73,8 @@ a {
 }
 
 .search input {
+  color: var(--text-color);
+  background: var(--elements-color);
   border: none;
   outline: none;
   width: 100%;
@@ -66,6 +88,7 @@ a {
 }
 
 .filter {
+  background: var(--elements-color);
   align-items: center;
   width: 250px;
   height: 40px;
@@ -75,12 +98,15 @@ a {
 }
 
 .filterByRegion {
+  background: var(--elements-color);
+  color: var(--text-color);
   border: none;
   outline: none;
   width: 100%;
 }
 
 .flags {
+  background: var(--elements-color);
   width: 150px;
   height: 100px;
 }
@@ -95,7 +121,9 @@ a {
 }
 
 .countryCard {
-  color: #000;
+  color: var(--text-color);
+  background: var(--elements-color);
+  border-radius: 12px;
   padding: 20px;
   text-decoration: none;
   transition: all .3s ease-out;
@@ -104,11 +132,13 @@ a {
 
 .countryCard:hover {
   cursor: pointer;
+  border: 1px solid #000;
   transform: scale(1.15);
 }
 
 .countryDetail {
-  background-color: #faebd7;
+  background-color: var(--elements-color);
+  border-radius: 20px;
   flex-direction: row;
   align-items: center;
   gap: 30px;
@@ -116,7 +146,7 @@ a {
   margin: auto;
   padding: 20px;
   display: flex;
-  box-shadow: 0 0 8px #00000026;
+  box-shadow: 0 0 15px 5px #00000026;
 }
 
 .countryDetail p {
@@ -128,7 +158,7 @@ a {
 }
 
 .countryDetail img {
-  background-color: #faebd7;
+  background-color: var(--elements-color);
   border: none;
   width: 150px;
   height: 150px;
