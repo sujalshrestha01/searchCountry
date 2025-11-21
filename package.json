@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/sujalshrestha01/searchCountry",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html"
+     "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "npx parcel index.html",
+  "build": "parcel build index.html --dist-dir dist",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +21,7 @@
     "react-router-dom": "^6.26.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   }
